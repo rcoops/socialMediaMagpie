@@ -1,23 +1,16 @@
 <?php require('template/header.phtml'); ?>
 
-<div id="fb-root"></div>
-<div id="fb-root"></div>
-
- class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="false"></div>
-
-    <div class="col-md-7">
-        <h2>Welcome to Social Media Magpie</h2>
-        <h3>Social isolation as a service</h3>
-
-        <a class="btn btn-block btn-social btn-facebook">
-            <span class="fa fa-facebook"></span> Sign in with Facebook
-        </a>
-    </div>
-
-<div class="panel panel-default">
-    <div class="panel-body">A Basic Panel</div>
-</div>
-
-    <div class="panel panel-default">
-        <div class="panel-body">Hello</div>
+    <div class="panel panel-default col-sm-12">
+        <div class="panel-body">
+            <div class="col-sm-10">
+                <h2>Welcome to Social Media Magpie</h2>
+                <h3>Social Isolation as a Service</h3>
+                <form action="../profile.php">
+                    <a class="btn btn-block btn-social btn-facebook">
+                        <img src="/images/FB_F.png"/>
+                    <input class="btn btn-block btn-social btn-facebook" type="submit" value="Sign in with Facebook"/>
+                    </a>
+                </form>
+            </div>
+        </div>
     </div>
