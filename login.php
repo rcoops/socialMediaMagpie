@@ -1,7 +1,6 @@
 <?php
-require_once 'Models/MembersTable.php';
-require_once 'Models/MoviesTable.php';
-require_once 'Models/Member.php';
+require_once 'Models/TvShowTable.php';
+require_once 'Models/TweetTable.php';
 /**
  * Member login page, can display login issues message on page and offers link to register for new members.
  * User: Tim Tyler
@@ -11,8 +10,8 @@ require_once 'Models/Member.php';
 session_start();
 
 $view = new StdClass;
-$movies_table = new MoviesTable();
-$members_table = new MembersTable();
+$movies_table = new TvShowTable();
+$members_table = new TweetTable();
 
 // Member not logged in and session not setup yet.
 if (!isset($_SESSION['member'])){

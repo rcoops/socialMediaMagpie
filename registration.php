@@ -1,6 +1,6 @@
 <?php
-require_once 'models/MembersTable.php';
-require_once 'models\Member.php';
+require_once 'models/UserTable.php';
+require_once 'models/User.php';
 /**
  * Registration page for members to register with website. Users are unable to rent
  * movies until registered and logged in.
